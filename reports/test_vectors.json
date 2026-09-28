@@ -1,0 +1,331 @@
+{
+  "note": "Demo secrets only. Never reuse them in a real system.",
+  "rfc4226_hotp": [
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 0,
+      "expected_otp": "755224"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 1,
+      "expected_otp": "287082"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 2,
+      "expected_otp": "359152"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 3,
+      "expected_otp": "969429"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 4,
+      "expected_otp": "338314"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 5,
+      "expected_otp": "254676"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 6,
+      "expected_otp": "287922"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 7,
+      "expected_otp": "162583"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 8,
+      "expected_otp": "399871"
+    },
+    {
+      "source": "RFC 4226 Appendix D",
+      "algorithm": "sha1",
+      "digits": 6,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "counter": 9,
+      "expected_otp": "520489"
+    }
+  ],
+  "rfc6238_totp": [
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha1",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "timestamp": 59,
+      "expected_otp": "94287082"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha1",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "timestamp": 1111111109,
+      "expected_otp": "07081804"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha1",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "timestamp": 1111111111,
+      "expected_otp": "14050471"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha1",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "timestamp": 1234567890,
+      "expected_otp": "89005924"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha1",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "timestamp": 2000000000,
+      "expected_otp": "69279037"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha1",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+      "timestamp": 20000000000,
+      "expected_otp": "65353130"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha256",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 59,
+      "expected_otp": "46119246"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha256",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 1111111109,
+      "expected_otp": "68084774"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha256",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 1111111111,
+      "expected_otp": "67062674"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha256",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 1234567890,
+      "expected_otp": "91819424"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha256",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 2000000000,
+      "expected_otp": "90698825"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha256",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 20000000000,
+      "expected_otp": "77737706"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha512",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA",
+      "timestamp": 59,
+      "expected_otp": "90693936"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha512",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA",
+      "timestamp": 1111111109,
+      "expected_otp": "25091201"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha512",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA",
+      "timestamp": 1111111111,
+      "expected_otp": "99943326"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha512",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA",
+      "timestamp": 1234567890,
+      "expected_otp": "93441116"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha512",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA",
+      "timestamp": 2000000000,
+      "expected_otp": "38618901"
+    },
+    {
+      "source": "RFC 6238 Appendix B",
+      "algorithm": "sha512",
+      "digits": 8,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA",
+      "timestamp": 20000000000,
+      "expected_otp": "47863826"
+    }
+  ],
+  "project_regression": [
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 0,
+      "counter": 0,
+      "expected_otp": "920136"
+    },
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 29,
+      "counter": 0,
+      "expected_otp": "920136"
+    },
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 30,
+      "counter": 1,
+      "expected_otp": "119246"
+    },
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 59,
+      "counter": 1,
+      "expected_otp": "119246"
+    },
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 60,
+      "counter": 2,
+      "expected_otp": "882438"
+    },
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 1700000000,
+      "counter": 56666666,
+      "expected_otp": "769631"
+    },
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 1700000029,
+      "counter": 56666667,
+      "expected_otp": "269558"
+    },
+    {
+      "source": "project regression (default config)",
+      "algorithm": "sha256",
+      "digits": 6,
+      "period": 30,
+      "secret_base32": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA",
+      "timestamp": 1700000030,
+      "counter": 56666667,
+      "expected_otp": "269558"
+    }
+  ]
+}

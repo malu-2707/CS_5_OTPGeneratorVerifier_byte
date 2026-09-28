@@ -1,0 +1,11 @@
+name,passed,expected,actual,details
+Deterministic generation,True,same OTP,same OTP,
+Correct OTP verification,True,success,success,
+Incorrect OTP rejection,True,invalid,invalid,
+Previous-window tolerance,True,accepted,success,
+Replay protection,True,"first accepted, second rejected","first accepted, second rejected",
+Invalid OTP format,True,invalid_input,invalid_input,
+Rate limiting,True,locked,locked,
+Eight-digit OTP,True,8 numeric digits,32049486,
+Secure secret generation,True,unique sufficiently long secrets,passed,
+Boundary timestamp handling,True,valid OTP for boundary timestamps,passed,

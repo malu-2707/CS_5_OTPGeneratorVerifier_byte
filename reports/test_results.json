@@ -1,0 +1,84 @@
+{
+    "summary": {
+        "project": "B.Y.T.E Internship - Task 5",
+        "version": "1.0.0",
+        "total_tests": 10,
+        "passed_tests": 10,
+        "failed_tests": 0,
+        "success_rate": 100.0,
+        "all_passed": true,
+        "generated_at": "2026-09-28T15:23:16.396150+00:00"
+    },
+    "tests": [
+        {
+            "name": "Deterministic generation",
+            "passed": true,
+            "expected": "same OTP",
+            "actual": "same OTP",
+            "details": ""
+        },
+        {
+            "name": "Correct OTP verification",
+            "passed": true,
+            "expected": "success",
+            "actual": "success",
+            "details": ""
+        },
+        {
+            "name": "Incorrect OTP rejection",
+            "passed": true,
+            "expected": "invalid",
+            "actual": "invalid",
+            "details": ""
+        },
+        {
+            "name": "Previous-window tolerance",
+            "passed": true,
+            "expected": "accepted",
+            "actual": "success",
+            "details": ""
+        },
+        {
+            "name": "Replay protection",
+            "passed": true,
+            "expected": "first accepted, second rejected",
+            "actual": "first accepted, second rejected",
+            "details": ""
+        },
+        {
+            "name": "Invalid OTP format",
+            "passed": true,
+            "expected": "invalid_input",
+            "actual": "invalid_input",
+            "details": ""
+        },
+        {
+            "name": "Rate limiting",
+            "passed": true,
+            "expected": "locked",
+            "actual": "locked",
+            "details": ""
+        },
+        {
+            "name": "Eight-digit OTP",
+            "passed": true,
+            "expected": "8 numeric digits",
+            "actual": "32049486",
+            "details": ""
+        },
+        {
+            "name": "Secure secret generation",
+            "passed": true,
+            "expected": "unique sufficiently long secrets",
+            "actual": "passed",
+            "details": ""
+        },
+        {
+            "name": "Boundary timestamp handling",
+            "passed": true,
+            "expected": "valid OTP for boundary timestamps",
+            "actual": "passed",
+            "details": ""
+        }
+    ]
+}
